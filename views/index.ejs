@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h3>Search using name</h3>
+    <form  action="/ingredient" method="GET">
+        <input type="text" name="key" />
+        <input type="submit" value="Submit">      
+    </form>
+    
+    <h3>Search using fuzzy search</h3>
+    <form  action="/fuzzy-search" method="GET" >
+        <input type="text" name="key" />
+        <input type="submit" value="Submit">      
+    </form>
+
+
+    <h3>Add all record</h3>
+    <form  action="/add-ingredients" method="POST">
+        <input type="submit" value="Submit">      
+    </form>
+
+
+</body>
+</html>
