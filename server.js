@@ -12,8 +12,8 @@ let jsonData = JSON.parse(rawdata);
 let awsConfig = ({
     "region": 'us-east-2',
     "endpoint" : "http://dynamodb.us-east-2.amazonaws.com", 
-    "accessKeyId" : "AKIA22VUFDUCIJ2TZYQB",
-    "secretAccessKey" : "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" 
+    "accessKeyId" : "",
+    "secretAccessKey" : "" 
 });
 aws.config.update(awsConfig);
 const docClient = new aws.DynamoDB.DocumentClient();
