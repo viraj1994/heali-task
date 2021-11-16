@@ -9,7 +9,7 @@
   "author": "viraj",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.537.0",
+    "aws-sdk": "^2.814.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1"
   }
